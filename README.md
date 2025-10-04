@@ -19,3 +19,12 @@ SWITCH(
     'Table'[BALANCE_FREQUENCY] >= 0.5, "Medium Frequency",
     'Table'[BALANCE_FREQUENCY] < 0.5, "Low Frequency"
 )
+
+Why True ?
+
+Reason :
+2. Using SWITCH(TRUE(), …)
+
+TRUE() is a trick that lets you use logical conditions instead of exact matches.
+
+Now each line can be a condition that evaluates to TRUE or FALSE.
