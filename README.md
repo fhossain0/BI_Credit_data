@@ -10,7 +10,8 @@ This helps in classifying customer balances for analysis and reporting purposes.
 
 "The column was not created by a DAX measure, because a DAX measure does not create columns. Measures are used only for calculations and visualizations, not to store data in a table."
 For better understanding here is the code 
-"""
+
+```DAX
 FrequencyCategory =
 SWITCH(
     TRUE(),
@@ -18,4 +19,3 @@ SWITCH(
     'Table'[BALANCE_FREQUENCY] >= 0.5, "Medium Frequency",
     'Table'[BALANCE_FREQUENCY] < 0.5, "Low Frequency"
 )
-"""
