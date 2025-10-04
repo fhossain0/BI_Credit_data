@@ -1,10 +1,10 @@
-Implemented a calculated column in Power BI to categorize BALANCE_FREQUENCY using a conditional column   (SWITCH(TRUE(), …)):
+Implemented a calculated column Based on BALANCE_FREQUENCY indicates how frequently the balance is updated or monitored to categorize BALANCE_FREQUENCY using a conditional column   (SWITCH(TRUE(), …)):
 
-High Frequency → BALANCE_FREQUENCY = 1
+- High Frequency → BALANCE_FREQUENCY = 1
 
-Medium Frequency → BALANCE_FREQUENCY >= 0.5
+- Medium Frequency → BALANCE_FREQUENCY >= 0.5
 
-Low Frequency → BALANCE_FREQUENCY < 0.5
+- Low Frequency → BALANCE_FREQUENCY < 0.5
 
 This helps in classifying customer balances for analysis and reporting purposes.
 
